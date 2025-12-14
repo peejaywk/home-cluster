@@ -1,0 +1,7 @@
+[tools]
+k9s = "latest"
+flux2 = "latest"
+kubectl = "latest"
+
+[env]
+KUBECONFIG = "/workspaces/home-cluster/kubeconfig"
