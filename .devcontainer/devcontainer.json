@@ -3,5 +3,12 @@
     "context": "..",
     "dockerfile": "Dockerfile"
   },
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Application",
+      "onAutoForward": "notify"
+    }
+  },
   "postCreateCommand": "scripts/setup"
 }
