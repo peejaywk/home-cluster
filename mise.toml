@@ -1,4 +1,6 @@
 [tools]
+age = "latest"
+sops = "latest"
 
 [env]
 KUBECONFIG = "/workspaces/home-cluster/kubeconfig"
