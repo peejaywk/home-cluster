@@ -37,3 +37,7 @@ spec:
 
         hosts:
           - grafana.peejay-tech.com
+        tls:
+          - secretName: grafana-tls-secret
+            hosts:
+              - grafana.peejay-tech.com
