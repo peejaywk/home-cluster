@@ -31,3 +31,9 @@ spec:
   values:
     grafana:
       adminPassword: peejaywk
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+
+        hosts:
+          grafana.peejay-tech.com
