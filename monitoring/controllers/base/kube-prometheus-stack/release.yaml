@@ -36,4 +36,4 @@ spec:
         ingressClassName: traefik
 
         hosts:
-          grafana.peejay-tech.com
+          - grafana.peejay-tech.com
