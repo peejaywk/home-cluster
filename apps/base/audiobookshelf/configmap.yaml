@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: audiobookshelf-config
 data:
-  port: 3005
+  PORT: "3005"
