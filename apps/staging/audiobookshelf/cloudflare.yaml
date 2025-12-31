@@ -67,7 +67,7 @@ metadata:
 data:
   config.yaml: |
     # Name of the tunnel you want to run
-    tunnel: audiobookshelf 
+    tunnel: audiobookshelf
 
     credentials-file: /etc/cloudflared/creds/credentials.json
 
@@ -76,7 +76,7 @@ data:
     no-autoupdate: true
 
     ingress:
-    - hostname: audiobookshelf.peejay-tech.com
+    - hostname: audiobooks.peejay-tech.com
       service: http://audiobookshelf:3005
 
     # This rule sends traffic to the built-in hello-world HTTP server. This can help debug connectivity
