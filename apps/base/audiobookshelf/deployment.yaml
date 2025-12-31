@@ -26,3 +26,26 @@ spec:
             - containerPort: 3005
           securityContext:
             allowPrivilegesEscalation: false
+          volumeMounts:
+            - name: audiobookshelf-audiobooks
+              mountPath: /audiobooks
+            - name: audiobookshelf-podcasts
+              mountPath: /podcasts
+            - name: audiobookshelf-config
+              mountPath: /config
+            - name: audiobookshelf-metadata
+              mountPath: /metadata
+      volumes:
+        - name: audiobookshelf-audiobooks
+          persistentVolumeClaim:
+            claimName: audiobookshelf-audiobooks
+        - name: audiobookshelf-podcasts
+          persistentVolumeClaim:
+            claimName: audiobookshelf-podcasts
+        - name: audiobookshelf-config
+          persistentVolumeClaim:
+            claimName: audiobookshelf-config
+        - name: audiobookshelf-metadata
+          persistentVolumeClaim:
+            claimName: audiobookshelf-metadata
+
