@@ -20,6 +20,6 @@ spec:
         - name: audiobookshelf
           image: ghcr.io/advplyr/audiobookshelf:2.32.0
           ports:
-            - containerPort: 13378
+            - containerPort: 80
           securityContext:
             allowPrivilegesEscalation: false
