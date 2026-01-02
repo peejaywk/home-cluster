@@ -10,19 +10,19 @@ The cluster runs on [K3s](https://k3s.io/), a lightweight Kubernetes distributio
 
 ## Architecture
 ### Staging Cluster
-- Hardware: HP EliteDesk 800 G2
-- OS: Ubuntu Server
-- CPU: Intel i5-6500T
-- Memory: 16GB RAM
-- Storage: 120GB SSD
+- **Hardware:** HP EliteDesk 800 G2
+- **OS:** Ubuntu Server
+- **CPU:** Intel i5-6500T
+- **Memory:** 16GB RAM
+- **Storage:** 120GB SSD
 
 ### Core Technologies
-- Kubernetes: Container orchestration platform
-- FluxCD: GitOps operator for continuous delivery
-- Renovate: Automated dependency updates
-- Prometheus: Metrics collection and monitoring
-- Grafana: Visualisation and dashboards
-- SOPS: Encrypted secrets management using age engryption
+- **Kubernetes:** Container orchestration platform
+- **FluxCD:** GitOps operator for continuous delivery
+- **Renovate:** Automated dependency updates
+- **Prometheus:** Metrics collection and monitoring
+- **Grafana:** Visualisation and dashboards
+- **SOPS:** Encrypted secrets management using age engryption
 
 ## Features
 - **GitOps-driven:** All changes are applied through Git commits
