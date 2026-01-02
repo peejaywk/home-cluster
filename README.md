@@ -51,15 +51,15 @@ The monitoring dashboards are only accessible on the local network through the c
 This repository includes a dev container configuration for a consistent development environment. The packages installed inside the container and environment variables are managed using [Mise](https://mise.jdx.dev/).
 
 ## TODO
-- Production Cluster: Add a second production cluster to enable proper stage -> production deployment pipeline
+- **Production Cluster:** Add a second production cluster to enable proper stage -> production deployment pipeline
 	- Setup hardware for production environment
 	- Configure FluxCD for multi-cluster management
 	- Implement promotion strategies between staging and production
-- TrueNAS Integration: Store databases on local TrueNAS server
+- **TrueNAS Integration:** Store databases on local TrueNAS server
 	- Configure NFS/iSCSI storage provisioning
 	- Setup persistent volume claims for database workloads
 	- Implement different storage classes for different performance tiers (staging / production)
-- Cloud Backup: Backup databases to the cloud
+- **Cloud Backup:** Backup databases to the cloud
 	- Configurate automated backup schedules
 	- Test restore procedure
 	- Test cluster re-build prosedure
